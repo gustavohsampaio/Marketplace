@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    color: #161616;
+}
+
+.container {
+    padding: 1.5rem 4.5rem;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container-product {
+    padding: 2rem 4rem;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container-brand {
+    padding: 1rem 4.5rem;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container a, .container-brand a, .container-product a {
+    color: black;
+    text-decoration: none;
+}
+
+#action {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+}
+
+.header-action-items {
+    width: 21px;
+}
+
+#star {
+    width: 20px;
+    height: auto;
+}
+
+#brand {
+    font-family: 'Trebuchet MS';
+    font-size: 26px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+.information-category-results {
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.info-result-bolder {
+    border-bottom: 1px solid #e7e4e4;
+}
+
+#information-results {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+.data-product {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.items-information {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #faf5f3;
+    border-radius: 10px;
+    gap: 0.5rem;
+}
+
+.items-information:hover .quantity-buy {
+    max-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-item {
+    margin-block-end: 0;
+}
+
+.price-item {
+    margin-top: 7px;
+}
+
+.back-footer {
+    background-color: #F9F9F9;
+}
+
+.information-store {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #e7e4e4;
+    border-bottom: 1px solid #e7e4e4;
+}
+
+#information-questions-contact {
+    width: 100%;
+    display: flex;
+}
+
+#information-questions-contact ul, #newsletter {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.information-questions-contact-items {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#field-email {
+    border-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding: 15px 15px;
+    border: 1px solid #e7e4e4;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+#btn-email {
+    background-color: #5CA720;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#social-networks {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#flags-payment-methods ul {
+    display: flex;
+}
+
+#flags-payment-methods img, #social-networks-icons img{
+    height: 25px;
+    margin-left: 5px;
+}
+
+#newsletter form{
+    display: flex;
+}
+
+.price-item  span{
+    color: #5CA720;
+    font-size: 24px;
+}
+
+.name-product-price {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-selector a:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-quantity, .value {
+    background: none;
+    border: none;
+}
+
+.value {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.btn-quantity img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-buy {
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #68cd86;
+    padding: 12px 30px;
+    font-size: 13px;
+    height: 36px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-buy:hover {
+    background-color: #5bba76;
+}
+
+.quantity-total {
+    border: none;
+    font-size: 16px;
+    color: #3f4444;
+    width: 32px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.btn-quantity {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-quantity:hover {
+    background-color: #616d79;
+    color: white;
+}
+
+.product-list-items {
+    width: 300px;
+}
+
+.container-product a.btn-buy {
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .container-brand, .container {
+        padding: 1rem 2rem;
+    }
+
+    .btn-cart-mob {
+        display: flex;
+        border-radius: 50%;
+        width: 50px;
+        background-color: red;
+        height: 50px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .btn-cart-mob a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #information-questions-contact {
+        display: block;
+    }
+
+    #information-questions-contact ul, #newsletter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #information-questions-contact ul {
+        padding-top: 0.5rem;
+    }
+
+    #newsletter {
+        padding-top: 2rem;
+    }
+
+    .container-product {
+        padding: 2rem 2rem;
+    }
+
+    .product-list-items {
+        width: 45%;
+    }
+
+    .image-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    #product-list {
+        gap: 1.5rem;
+    }
+
+    .items-information {
+        padding: 10px;
+    }
+
+    .container-footer {
+        padding: 1.5rem 4.5rem 0 4.5rem;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .product-list-items {
+        width: 100%;
+    }
+}
+
+
