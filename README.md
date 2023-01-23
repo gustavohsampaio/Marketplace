@@ -1,3 +1,10 @@
+# Marketplace
+O projeto consiste em criar uma loja virtual, onde é possivel ver os produtos e adicionar-lo ao carrinho e redirecionando ao mesmo. 
+
+Na página dedicada ao carrinho sendo realizável a possibilidade de alteração de adição e remoção de produtos e suas respectivas quantidades. 
+
+Nesta página você irá observar os botões para voltar para página de produtos para adicionar novos produtos ou continuar para finalização do pedido na página. 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
